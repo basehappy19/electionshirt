@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+	display:none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* เปลี่ยนสีพื้นหลัง */
+    font-family: 'Prompt', sans-serif; /* เปลี่ยนฟอนต์ */
+}
+
+.container {
+    background-color: #fff; /* เปลี่ยนสีพื้นหลังของคอนเทนเนอร์ */
+    padding: 20px;
+    border-radius: 10px; /* เพิ่มขอบให้กับคอนเทนเนอร์ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้คอนเทนเนอร์ */
+    text-align: center; /* จัดวางข้อความกลางจอ */
+}
+
+h3 {
+    color: #827B54; /* เปลี่ยนสีข้อความหัวข้อให้สีน้ำเงิน */
+    font-size: 28px; /* เปลี่ยนขนาดตัวอักษรของหัวข้อ */
+    margin-top: 20px; /* เพิ่มระยะห่างด้านบนของข้อความ */
+}
+
+h6 {
+    color: #555; /* เปลี่ยนสีข้อความรายละเอียดให้สีเทาเข้ม */
+}
+
+.btn {
+    background-color: #4CAF50; /* เปลี่ยนสีปุ่ม */
+    color: white; /* เปลี่ยนสีข้อความบนปุ่ม */
+    border: none;
+}
+
+.btn.disabled {
+    background-color: #ccc; /* เปลี่ยนสีปุ่มเมื่อปิดใช้งาน */
+}
+    .animated-button {
+        transition: transform 0.5s !important;
+        color: black !important; 
+        border: 2px solid #000000 !important; 
+        padding: 5px 15px !important; 
+        border-radius: 5px !important; 
+        font-size: 16px !important; 
+        cursor: pointer;
+    }
+
+  .animated-button:hover {
+    transform: scale(1.1) !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000;
+    border: 2px solid #000000 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+  }
+  .btn-primary {
+    background-color: #827B54;
+    color: #000;
+    
+  }
+  .btn-primary:hover {
+    background-color: #615b38;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  

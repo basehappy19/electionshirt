@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+	display:none;
+}
+  .result {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #00000069;
+    border-radius: 10px;
+  }
+  .scoreshirt {
+    z-index: 9999;
+    position: absolute;
+    top: 125px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid #00000069;
+    border-radius: 10px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-select:focus {
+    box-shadow: 0 0 0 0.25rem #b6ab70!important;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อ hover */
+  }
+  
+  
+  .card-img-top {
+    object-fit: contain;
+    height: 500px; /* ปรับสูงของรูปตามต้องการ */
+  }
+  .animated-button {
+    transition: transform 0.5s !important;
+    color: black !important; 
+    border: 2px solid #000000 !important; 
+    padding: 5px 15px !important; 
+    border-radius: 5px !important; 
+    font-size: 16px !important; 
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s, background-color 0.5s, border-color 0.5s, box-shadow 0.5s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .animated-button:hover {
+    transform: scale(1.1) !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000;
+    border: 2px solid #000000 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  .btn-primary {
+    background-color: #827B54;
+    color: #000;
+    
+  }
+  .btn-primary:hover {
+    background-color: #615b38;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .badge {
+    font-size: 14px; /* ปรับขนาด font ของ badge */
+    margin-left: 8px; /* เพิ่มระยะห่างระหว่าง badge */
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    margin-left: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+  }
+  .badge-success {
+    color: #fff;
+    background-color: #e3d667;
+  }
+  .badge-org {
+    color: #fff;
+    background-color: #e3a967;
+  }
